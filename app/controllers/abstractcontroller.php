@@ -41,7 +41,7 @@ class AbstractController{
             $view  = VIEW_PATH . DS . $this->_controller . DS . $this->_action . '.view.php';
              if(file_exists($view)){
                  extract($this->_data);
-               //  require TEMPLATE_PATH . DS . 'templateheaderstart.php';
+             //require TEMPLATE_PATH . DS . 'templateheaderstart.php';
                 // require TEMPLATE_PATH . DS . 'templateheaderend.php';
                 // require TEMPLATE_PATH . DS . 'nav.php';
                 // require TEMPLATE_PATH . DS . 'header.php';
